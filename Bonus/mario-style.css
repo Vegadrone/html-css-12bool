@@ -1,0 +1,40 @@
+[class*="col-"] {
+    height: 80px;
+}
+
+.red-color{
+    background-color: #da0000;
+}
+
+.brown-color{
+    background-color: #716900;
+}
+
+.skin-color {
+    background-color: #f9ab00;
+}
+
+@media all and (min-width: 575px) {
+    [class*="col-"] {
+        height: 20px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    [class*="col-"] {
+        height: 40px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    [class*="col-"] {
+        height: 60px;
+    }
+}
+
+@media all and (min-width: 992px){
+    [class*="col-"] {
+        height: 80px;
+    }
+}
+
