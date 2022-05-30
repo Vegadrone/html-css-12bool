@@ -490,6 +490,26 @@
    justify-content: space-between;
 }
 
+.f-start {
+   justify-content: flex-start;
+}
+
+.f-end {
+   justify-content: flex-end;
+}
+
+.a-self-top {
+   align-self: flex-start;
+}
+
+.a-self-middle {
+   align-self: center;
+}
+
+.a-self-end {
+   align-self: flex-end;
+}
+
 .p-1{
    padding: 10px;
 }

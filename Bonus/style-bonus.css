@@ -1,5 +1,5 @@
 [class*="col-"] {
-    height: 80px;
+    height:100px;
 }
 
 [class*="bg-nested"] {
@@ -8,5 +8,9 @@
 }
 
 [class*="txt"] {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.brdr-bot-1-w {
+    border-bottom: 1px solid #fff;
 }
